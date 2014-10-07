@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Here we go"
+date:   2014-10-07 06:01:33
+categories: jekyll update
+---
+
+I'm starting this blog as a place for me to share my personal projects. One of the things I am building is this very blog, and I am going to write blog posts about the changes I make and problems I encounter while building it.  Here's what the blog looks like to begin with:
+
+![Standard Jekyll layout](/images/original-blog-layout.png)
+
+
+I am building it with [Jekyll](https://github.com/jekyll/jekyll) based on the [Jekyll new theme](https://github.com/jglovier/jekyll-new). I already can think of a slew of improvements I want to add:
+
+* Links to edit posts on github (like on [haacked.com](http://haacked.com))
+* Better layout and design
+* Pages with multiple posts
+* A link to my facebook page and LinkedIn
+
+But first, I'm going to check this in to github and publish this as my first commit.
+
+Here we go.
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
