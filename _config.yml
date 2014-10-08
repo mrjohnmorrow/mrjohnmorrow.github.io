@@ -9,6 +9,8 @@ url: "http://mrjohnmorrow.com" # the base hostname & protocol for your site
 #usernames
 twitter_username: mrjohnmorrow
 github_username:  mrjohnmorrow
+linkedin_username: mrjohnmorrow
+dribbble_username: johnmorrow
 
 #visual options
 permalink: pretty
