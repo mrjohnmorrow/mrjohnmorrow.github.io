@@ -2,7 +2,7 @@
 layout: post
 title:  "Here we go"
 date:   2014-10-07 06:01:33
-categories: jekyll update
+categories:
 ---
 
 I'm starting this blog as a place for me to share my personal projects. One of the things I am building is this very blog, and I am going to write blog posts about the changes I make and problems I encounter while building it.  Here's what the blog looks like to begin with:
@@ -15,7 +15,7 @@ I am building it with [Jekyll](https://github.com/jekyll/jekyll) based on the [J
 * Links to edit posts on github (like on [haacked.com](http://haacked.com))
 * Better layout and design
 * Pages with multiple posts
-* A link to my facebook page and LinkedIn
+* A link to my Facebook page and LinkedIn
 
 But first, I'm going to check this in to github and publish this as my first commit.
 
