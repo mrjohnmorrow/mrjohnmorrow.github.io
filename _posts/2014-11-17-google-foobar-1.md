@@ -5,7 +5,7 @@ date:   2014-11-17 20:01:33
 categories:
 ---
 
-I saw that someone posted a link to [Google Foobar](http://www.google.com/foobar) on [Hacker News](https://news.ycombinator.com/) and my curiosity was immediately piqued. Since I have a lot of time on my hands now that I have quit Microsoft, and want to hone my coding skills, it seemed like the perfect thing to try.
+I saw that someone posted a link to [Google Foobar](http://www.google.com/foobar) on [Hacker News](https://news.ycombinator.com/) and my curiosity was immediately piqued. Since I have been trying to hone my coding skills, it seemed like the perfect thing to try.
 
 If you don't know what Foobar is, that makes two of us, because even after completing two coding challenges on the site, I still don't know what it's for. What I do know is this:
 
