@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Google Foobar Challenge 2: The Scheduling Problem"
-date:   2014-11-17 22:01:33
+date:   2014-11-18 22:01:33
 categories:
 ---
 
 After completing my [first challenge]({% post_url 2014-11-17-google-foobar-1 %}), I was given a slightly harder second challenge - the famous [Interval Scheduling Problem](http://en.wikipedia.org/wiki/Interval_scheduling).
 
 The task was as follows:
+
 * I input is a list of start and end times, e.g. `[[1,2][3,4], ... ]`
 * The times are between 1 and 1000000, and there are never more than 100 appointments.
 * You must create a function where the return value must equal the maximum number of appointments that can be scheduled
