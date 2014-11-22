@@ -25,4 +25,12 @@ As I was debugging, I began to think that this had to be an over-complicated sol
 * Sort the intervals by earliest finishing time
 * Accept each interval of it doesn't conflict with the reviously accepted intervals
 
-This took only a few minutes to implement and passed the tests on the Foobar website. You can even prove the correctness of this algorithm by using a [charging argument](http://en.wikipedia.org/wiki/Charging_argument)
+This took only a few minutes to implement and passed the tests on the Foobar website. You can even prove the correctness of this algorithm by using a [charging argument](http://en.wikipedia.org/wiki/Charging_argument).  
+
+# The anti-climactic finish
+
+After Google accepted my answer, I was notified that I was halfway done with Level 2. I typed "request" into the command line on the site ...
+
+![images/googelfoobar2.png]("Your invitation has expired")
+
+And that was the end of the Foobar adventure. No warning. No explaination. No closure. 
