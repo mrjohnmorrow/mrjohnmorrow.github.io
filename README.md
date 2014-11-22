@@ -1,6 +1,6 @@
 mrjohnmorrow.github.io
 ======================
 
-My personal blog and website, which you can find [here](http://mrjohnmorrow.com/).
+My personal blog and website.
 
 Built on [Jekyll](https://github.com/jekyll/jekyll).
