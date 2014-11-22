@@ -39,4 +39,4 @@ def answer(x):
         return answer(sum)
 {%endhighlight python%}
 
-I submitted my answer, Google accepted my solution, and told me I had completed "Level 1" of Foobar. I typed "request" and received [my next challenge]({% post_url 2014-11-17-google-foobar-2 %}).
+I submitted my answer, Google accepted my solution, and told me I had completed "Level 1" of Foobar. I typed "request" and received [my next challenge]({% post_url 2014-11-18-google-foobar-2 %}).

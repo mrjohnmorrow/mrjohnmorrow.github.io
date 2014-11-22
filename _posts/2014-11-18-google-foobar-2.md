@@ -33,4 +33,4 @@ After Google accepted my answer, I was notified that I was halfway done with Lev
 
 ![images/googelfoobar2.png]("Your invitation has expired")
 
-And that was the end of the Foobar adventure. No warning. No explaination. No closure. 
+And that was the end of the Foobar adventure. No warning. No explanation. No closure. 
