@@ -5,7 +5,7 @@ date:   2014-10-07 06:01:33
 categories:
 ---
 
-I'm starting this blog as a place for me to share my personal projects. One of the things I am building is this very blog, and I am going to write blog posts about the changes I make and problems I encounter while building it.  Here's what the blog looks like to begin with:
+I'm starting this blog as a place for me to share my personal projects. One of the things I am building is this very blog, and I am going to write posts about the changes I make and problems I encounter while building it.  Here's what the blog looks like to begin with:
 
 ![Standard Jekyll layout](/images/original-blog-layout.png)
 
