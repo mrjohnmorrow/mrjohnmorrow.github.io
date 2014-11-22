@@ -22,4 +22,7 @@ I decided to try to solve the puzzle without looking up the right answer. I firs
 
 As I was debugging, I began to think that this had to be an over-complicated solution to the problem. I went to Wikipedia and found that the much simpler "Earliest Finishing Time" algorithm was the optimal solution:
 
+* Sort the intervals by earliest finishing time
+* Accept each interval of it doesn't conflict with the reviously accepted intervals
 
+This took only a few minutes to implement and passed the tests on the Foobar website. You can even prove the correctness of this algorithm by using a [charging argument](http://en.wikipedia.org/wiki/Charging_argument)
