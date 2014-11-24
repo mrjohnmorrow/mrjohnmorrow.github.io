@@ -16,7 +16,7 @@ The task was as follows:
 
 # If at first you don't succeed ...
 
-I decided to try to solve the puzzle without looking up the right answer. I first thought that because the number of appointments was limited by the conflicts, and a graph was a good data structure to represent conflicts, that a graph based approach might be fruitful. I quickly made [simple Node and Graph data structures](https://github.com/mrjohnmorrow/googlefoobar/blob/master/zombit_antidote/solution_plus.py), and tested it out. It worked on some tests provided by google, but not all of them.  
+I decided to try to solve the puzzle without looking up the right answer. I first thought that because the number of appointments was limited by the conflicts, and a graph was a good data structure to represent conflicts, that a graph based approach might be fruitful. I quickly made [simple Node and Graph data structures](https://github.com/mrjohnmorrow/googlefoobar/blob/master/zombit_antidote/solution_plus.py), and tested it out. It worked on some of the tests provided by google, but not all of them.  
 
 # Try again
 
