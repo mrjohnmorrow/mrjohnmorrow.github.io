@@ -10,4 +10,6 @@ I am a developer and designer living in Seattle, WA.  I am from Buffalo, NY, and
 
 You can find the source code this website at  [github.com/mrjohnmorrow/mrjohnmorrow.github.io](https://github.com/mrjohnmorrow/mrjohnmorrow.github.io).
 
-Photo courtesy of [Redstone Pictures](http://redstonepictures.com)
+### Credits
+
+* Photo on this page courtesy of [Redstone Pictures](http://redstonepictures.com)
