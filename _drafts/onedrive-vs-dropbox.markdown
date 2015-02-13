@@ -11,4 +11,4 @@ I collected about 30 minutes of footage that was a little over 5gb in total size
 * This design makes the value prop of the pro subscription more confusing for users
 * What are the top scenarios for the pro subscription - 1) backing up my own files 2) sharing more than 2gb of files with others 3)  allowing others to share more than 2GB of files with me 4)
 * look at the site and make sure this list is exhaustive
-* read the policy again and 
+* read the policy again and

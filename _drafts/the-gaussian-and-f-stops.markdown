@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Boket and f-stop"
-date:
+date:   2015-02-10 22:01:33
 categories:
 ---
 
