@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Single Serving Website in Ruby on Rails"
-date:   2014-02-12 22:01:33
+date:   2015-02-12 22:01:33
 categories:
 ---
 
