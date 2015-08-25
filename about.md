@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Me!](/images/me-potrait.jpg)
 
-I am a Product Manager living in Seattle, WA.  I am from Buffalo, NY, and came to the great State of Washington via Cornell University.
+I am a product manager and developer living in Seattle, WA.  I am from Buffalo, NY, and came to the great State of Washington via Cornell University.
 
 You can find the source code for this website at  [github.com/mrjohnmorrow/mrjohnmorrow.github.io](https://github.com/mrjohnmorrow/mrjohnmorrow.github.io).
 
