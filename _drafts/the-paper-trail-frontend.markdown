@@ -14,4 +14,6 @@ categories:
 * seemed to get me the biggest head start
 
 
-* designing for a fixed height (figure out what to call this) forces you to move off standard responsive design techniques for things like horizontal flowing lists  
+* designing for a fixed height (figure out what to call this) forces you to move off standard responsive design techniques for things like horizontal flowing lists
+
+* don't add a folder called 'resources" in an xcode project

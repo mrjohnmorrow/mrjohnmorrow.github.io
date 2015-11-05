@@ -88,6 +88,10 @@ So how does this apply to the Mathiness Romer is criticizing? Let's first start 
 4. Romer thinks that
 Romer compares the situation in Economics to the repeated prisoner's dilemmna.
 
+# Parallels in the Global Warming Debate
+
+# Applications in the Workplace
+
 TODO: stop calling it a game everywhere and use criminal/crime terminology not player
 TODO: fix confusing language which uses cooperate in oppposite contexts (police cooperation and criminal cooperation)
 

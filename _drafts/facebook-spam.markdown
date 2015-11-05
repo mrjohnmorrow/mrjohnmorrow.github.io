@@ -11,12 +11,8 @@ Facebook has come a long way over the years in its fight against spam.  What was
 
 The spam post I encounter is a confusing one. First, it's a life event ([what even are those](http://www.complex.com/sneakers/2015/06/sneakerheads-what-are-those) anyway?) posted by a stranger, in which a friend was tagged. I am puzzled by why I am seeing this post at all, because it is a post from someone who I am not friends with and have never heard of before.
 
-
-<img src="/images/facebookspam0.png" height="300" style="margin: auto;">
-
-
-Since this is clearly spam, I immediately click the caret in the corner of the post to report it. That was easy - oh wait, there's more!
-
+|-------------------------------------------------------------------------|-|----------------:|
+| !["Your friend was tagged in a life event."](/images/facebookspam0.png) | | Since this is clearly spam, I immediately click the caret in the corner of the post to report it. That was easy - oh wait, there's more!|
 
 Oh ok well now I have to choose an option to help Facebook figure out what's wrong with the post. Ok Facebook, that's cool, I can help you with that real quick.
 
