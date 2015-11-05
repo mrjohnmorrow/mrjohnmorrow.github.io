@@ -36,7 +36,16 @@ sudo pip install pillow
 
 If you are like me, and recently installed OS X Capitan, you will need to fix up your Brew install via `brew update` and `brew prune` (and maybe not just that :/ ).
 
+# Running the Search
 
+It is a bit too long too include inline but the code I used can be found [here](https://github.com/mrjohnmorrow/mrjohnmorrow.github.io/blob/master/code/OCRsearch.py). What I do is:
+
+* Walk the file directory
+* Run the OCR on anything that looks like an image (in my case JPG, since iPhone photos are JPGs)
+* Stick the file name and OCR output in a CSV
+* Scan the CSV manually to see if any of the output text looks to be a 6-digit number. You would think it would be obvious to use a regex here, but that's only if you have seen any raw OCR output before.
+
+It does take a while to run on most computers, about 2-3 seconds a picture on my 2013 Macbook Pro. I just ran it overnight on my Pictures directory and looked at the results in the morning.
 
 
 sources:
