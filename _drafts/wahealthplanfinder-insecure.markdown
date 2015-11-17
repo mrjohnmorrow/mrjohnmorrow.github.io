@@ -20,7 +20,7 @@ I then contacted the WAHB on November 16th to try again to see if they could hel
 I also looked up the whois information for the website on Nov 16th. The phone number just pointed me to customer service again, but I emailed "hostmaster@wahbexchange.org" as well to see if they could help me.
 
 I filed a CERT Vulnerability Report later that day on the 16th https://forms.cert.org/VulReport/
-However
+However CERT refused to proceed as they "typically avoid publishing or handling vulnerabilities that affect live websites."
 
 The "security team" called me later on the 16th. The person I was speaking to refused to give me a name or number to reach him on. The caller ID just showed the Cust Serv number for the site. He suggested I contact customer support again, the people who had put me in touch with him to begin with. I found a form on the website to file a "Customer Complaint" https://referrals.wahbexchange.org/CustomerComplaint.aspx that I used to contact wahbexchange again. You need to have valid customer ID number to report the complaint - allowing people to report security issues is clearly not a goal for them.
 
@@ -49,7 +49,7 @@ This security hole is easy to exploit, and obvious. I would be surprised if peop
 
 3. Once you have reset the password, you have access to the account. This is bad, but it is made worse by how easily an attacker with access to your account can see your SSN. At this time of the year, the website prompts you to "Complete Your Application" for your 2016 health insurance. When you click on this link, it takes you to a screen to shows you all of your personal data in case any of it is incorrect. This includes your entire SSN, with none of it obfuscated with asterisks. ![SSN is one click away](/images/completeapp.png)
 
-On top of this, there doesn't seem to be anything stopping someone finding a list of usernames from the password reset page (which allows you to check if a username is valid over and over again). Once a attacker has a valid username, there again doesn't seem to be a restriction on how many times you can guess at a security question. I wrote a script using [Selenium WebDriver](http://www.seleniumhq.org/projects/webdriver/) which would try a new answer to the security question (for my own account, of course) every 10s or so, and it was not rate-limited by the website.
+On top of this, there doesn't seem to be anything stopping someone finding a list of usernames from the password reset page (which allows you to check if a username is valid over and over again). Once a attacker has a valid username, there again doesn't seem to be a restriction on how many times you can guess at a security question. I wrote a script using [Selenium WebDriver](http://www.seleniumhq.org/projects/webdriver/) which would try a new answer to the security question (for my own account, of course) every 10s or so, and it was not rate-limited by the website. I am afraid of poking around more, as if I were to try to access someone's account other than my own, I could face legal action. I am not even sure that I haven't violated the terms of service already with my existing usage.
 
 ### If I update my security questions, am I safe?
 
