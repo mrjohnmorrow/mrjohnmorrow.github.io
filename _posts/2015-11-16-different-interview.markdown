@@ -12,7 +12,7 @@ When people talk about work, they often use language like "that sounds like a go
 
 The standard format for product managers - four to six one-hour one-on-one interviews with current employees - seems to do a decent job at the former. However, from my experience being interviewed, I can say that it doesn't do particularly well at the latter.
 
-I recently interviewed for a position as a Product Manager at a small start-up in San Francisco called [Gigster](http://trygigster.com). They used a different format which I thought felt like a much more straightforward and effective way to judge a candidate. The interview consisted of two short one-on-one interviews, and then a 3-4 hour practical.
+I recently interviewed for a position as a Product Manager at a small start-up in San Francisco called [Gigster](http://trygigster.com). They used a different format which felt like a much more straightforward and effective way to judge a candidate. The interview consisted of two short one-on-one interviews, and then a 3-4 hour practical.
 
 ### The Interviews
 

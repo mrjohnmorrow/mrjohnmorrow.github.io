@@ -13,7 +13,16 @@ WARNING: If you  have an account on [Washington Health Plan Finder](https://www.
 * Click "Update Security Questions"
 * Use long, secure passwords for each answer, and save your settings. That's right, don't answer the questions - use long secure passwords as the answer.
 
-I contacted Washington Health Plan Finder via phone and email on November 14th. They said they would get back to me in 3-5 days. I have continued to contact them to no avail. It is at this point I figured that it would be better to let people know how to protect themselves then to continue pursuing a solution with them.
+I contacted Washington Health Plan Finder via phone and email on November 14th. They said they would get back to me in 3-5 days.
+
+I then contacted the WAHB on November 16th to try again to see if they could help escalate the issue. They did not have anyway to file a bug report or even put me in contact with the vendors maintaining the website, but they said they would try to talk to someone and call me back.
+
+I also looked up the whois information for the website on Nov 16th. The phone number just pointed me to customer service again, but I emailed "hostmaster@wahbexchange.org" as well to see if they could help me.
+
+I filed a CERT Vulnerability Report later that day on the 16th https://forms.cert.org/VulReport/
+However
+
+The "security team" called me later on the 16th. The person I was speaking to refused to give me a name or number to reach him on. The caller ID just showed the Cust Serv number for the site. He suggested I contact customer support again, the people who had put me in touch with him to begin with. I found a form on the website to file a "Customer Complaint" https://referrals.wahbexchange.org/CustomerComplaint.aspx that I used to contact wahbexchange again. You need to have valid customer ID number to report the complaint - allowing people to report security issues is clearly not a goal for them.
 
 ### What is Washington Health Plan Finder?
 
