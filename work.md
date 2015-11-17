@@ -4,7 +4,7 @@ title: Work
 permalink: /work/
 ---
 
-I worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, working on [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have worked on.
+I worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, moving to  [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have contributed to.
 
 ## Product Management
 
@@ -36,8 +36,7 @@ Working on the Mail and People Apps, released in-box as part of Windows 8 and be
 * Social-Network Push notifications
 * Localization
 * App performance
-
-
+* App Security 
 
 ## Other Work
 
