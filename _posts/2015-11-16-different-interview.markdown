@@ -5,7 +5,7 @@ date:   2015-11-16 23:19:33
 categories:
 ---
 
-When people talk about work, they often use language like "that sounds like a good job", as if the job was something that existed on its own, without someone working it. What makes a job good is that it is a good *fit*, a match of employer and employee. This is something that is lost not only in language, but in the job interview as well. At the very least, an interview should:
+When people talk about work, they often use language like "that sounds like a good job", without mentioning for whom, as if the job was something that existed on its own, without someone working it. What makes a job good is that it is a good *fit*, a match of employer and employee. This is something that is lost not only in language, but in the job interview as well. At the very least, an interview should:
 
 * Allow the company to ascertain if the applicant would be successful at the job in question
 * Allow the applicant to learn about what it would be like to work at the company
@@ -27,12 +27,12 @@ Both founders were focused on keeping things conversational, and so we ended up 
 
 ### The Practical
 
-For the practical, I was given a few hours to put together a pitch on two questions:
+For the practical, I was given a few hours to put together a pitch on two prompts:
 
-* For a product area, analyze the current solution and provide a prioritized list of product improvements?
+* For a product area, analyze the current solution and provide a prioritized list of product improvements.
 * For that same area, pick a specific piece of the UI and design an improvement.
 
-I actually thought the 4 hours I was given was going to be enough time to do this, but this was a little naïve. Since I hadn't really gotten a chance to use the software too much before the practical session, I had to spend a lot of time just gathering information from cust. sat. reports and trying out various parts of the product. I ended up not quite finishing both questions, and the visuals couldn't have been more crude. However, I got to talk through the deck I made with the founders, and we got into a long discussion about success metrics and analysis that covered a few of the things that I couldn't get to in my deck.
+I actually thought the 4 hours I was given was going to be enough time to do this, but this was a little naïve. Since I hadn't really gotten a chance to use the software too much before the practical session, I had to spend a lot of time just gathering information from customer satisfaction reports and trying out various parts of the product. I ended up not quite finishing both questions, and the visuals couldn't have been more crude. However, I got to talk through the deck I made with the founders, and we got into a long discussion about success metrics and analysis that covered a few of the things that I couldn't get to in my deck.
 
 ### Why is this better?
 
@@ -43,7 +43,7 @@ I can't really speak for the founders who interviewed me, but I felt at the very
 So, in case you were wondering, I got the job. Here are some things I did to prepare that I thought were effective. Some of these things are not specific to the practical interview, but were helpful nonetheless.
 
 
-1. **Use the product as much as possible beforehand. As well as competing products.**  Everything you know about the product helps make you ideate improvements faster and more confidently. Being familiar with competitors helped me understand what was unique about Gigster's value prop and what differentiators were important to focus on in the product.  Still, this is something I could have done more of. I felt familiar with the Gigster and where it fit in the market, but I still wasted a lot of time in my interview poking around in the UI.
+1. **Use the product as much as possible beforehand. As well as competing products.**  Everything you know about the product helps make you ideate improvements faster and more confidently. Being familiar with competitors helped me understand what was unique about Gigster's value prop and what differentiators were important to focus on in the product.  Still, this is something I could have done more of. I felt familiar with Gigster and where it fit in the market, but I still wasted a lot of time in my interview poking around in the UI.
 
 2. **Try to guess what the practical work is and do it ahead of time.** I guessed that I would have to put a deck together analyzing the product. This ended up being sort of true, but the focus was less on the state of affairs and more on how to improve it. This got me thinking about the company and the product, loading my mental cache for the next day. One part that was surprisingly helpful is that it got me used to  using the tools I would be using the next day. I made a few diagrams in Powerpoint and I definitely felt more comfortable with it the next day then I did the night before.
 
