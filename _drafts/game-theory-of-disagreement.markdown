@@ -5,22 +5,19 @@ date:   2015-08-25 08:19:33
 categories:
 ---
 
-The Meek Mill and Drake feud is not the only high-profile dispute to echo through the Twitterverse earlier this summer.  Economist Paul Romer published [a paper](http://paulromer.net/mathiness/) in the American Economic Review that accused a few leading economists of using Math in misleading an unscientific ways.  Romer fired shots at a some big names, including Nobel Prize Winner Robert Lucas and everyone's favorite econometrician, Thomas Piketty. On top of this, he published a series of posts on his [blog](http://paulromer.net/category/blog/) that answered some of the feedback and criticisms the paper had received. In [one of these posts](http://paulromer.net/freshwater-feedback-part-1-everybody-does-it/), he makes an offhand remark that is presents of the most elucidating applications of game theory I have ever encountered.
+The Meek Mill and Drake feud is not the only high-profile dispute to echo through the Twitterverse this past summer.  Economist Paul Romer published [a paper](http://paulromer.net/mathiness/) in the American Economic Review that accused a few leading economists of using Math in misleading an unscientific ways.  Romer fired shots at a some big names, including Nobel Prize Winner Robert Lucas and everyone's favorite econometrician, Thomas Piketty. On top of this, he published a series of posts on his [blog](http://paulromer.net/category/blog/) that answered some of the feedback and criticisms the paper had received. In [one of these posts](http://paulromer.net/freshwater-feedback-part-1-everybody-does-it/), he makes an offhand remark that is presents of the most elucidating applications of game theory I have ever encountered.
 
 > One way to characterize the underlying disagreement about what is wrong is to say that we are both commenting on strategic interaction between economists that takes the form of a repeated, multi-player prisoner’s dilemma.
 
- Romer's application of game theory here shows how people's rational protection of their reputation could result in persisting disagreement.
+ Romer's application of game theory here shows how people's rational protection of their reputation could result in persisting disagreement.  Romer's posts do a great job of explaining how this applies to economics, but I think it applies in other situations as well. I will present an overview repeated prisoner's dilemma. I will then detail two examples of other situations this applies; climate change and customer data analysis.
 
-In two posts, I will:
+## The Repeated Prisoners Dilemma
 
-1. Present an overview the concept he applies - Repeated-game Nash equilibria
-2. Explain Romer's remark further, how it applies to Mathiness in economics, and how you could apply it to other situations as well
+Before I get into the repeated variant of the prisoners dilemma, I will quickly address the standard version.  Even if you are already familiar, it will be useful to skim it to get on the same page in regards to payout values / prison sentence lengths.
 
-This post will cover number 1 - Repeated-game Nash equilibria.
+### The Standard Version
 
-# The Prisoners Dilemma
-
-The standard Prisoners Dilemma is a "game" that involves two "players", Calvin and Klein (using the names from [1]). Calvin and Klein are two criminals who are accused of being co-conspirators in a crime. Calvin and Klein are separately given the option to confess or stay silent. If they both stay silent, they each get one year in jail. If one confesses and the other doesn't, the one who confesses goes free, while the other gets fifteen years. If they both confess, in an effort to receive the reduced sentence, then they both get five years in jail. They are unable to know what the other will do before they have to act themselves.
+The standard Prisoners Dilemma is a "game" that involves two "players", Calvin and Klein (using the names from [1]). Calvin and Klein are two criminals who are accused of being co-conspirators in a crime. They are separately given the option to confess or stay silent. If they both stay silent, they each get one year in jail. If one confesses and the other doesn't, the one who confesses goes free, while the other gets fifteen years. If they both confess (in an effort to receive the reduced sentence) then they both get five years in jail. They are unable to know what the other will do before they have to act themselves.
 
 
 | -----------------|-|----------------:|-|----------------:|
@@ -30,11 +27,11 @@ The standard Prisoners Dilemma is a "game" that involves two "players", Calvin a
 |                  | |                 | |                 |
 
 
-It's just always better to confess, so the best outcome (each only spending one year in jail) is very difficult to achieve. Imagine, you are Calvin, and you think Klein is going to confess. Then it is in your best interest to confess too, because it would save you 10 years of your sentence. Also, even if you think Klein will not confess, you still should confess since it will save you a year of jail time. Though [Homo economicus](https://en.wikipedia.org/wiki/Homo_economicus) would clearly always confess, it's hard to say how Homo sapiens would act, though it should be easy to see that both Calvin and Klein are incentivized in a deleterious fashion.
+Imagine, you are Calvin, and you think Klein is going to confess. Then it is in your best interest to confess too, because your sentence would be reduced from 15 to 5 years. Also, even if you think Klein will not confess, you still should confess, since it will reduce your sentence from 1 to 0 years. You can see that when the players act rationally, they will always end up both confessing. Though [Homo economicus](https://en.wikipedia.org/wiki/Homo_economicus) would clearly always confess, it's hard to say how Homo sapiens would act, though it should be easy to see that both Calvin and Klein are incentivized in a deleterious fashion.
 
-# Repeated Prisoner's Dilemma
+### ... Repeated
 
-If you are to consider a situation where Calvin and Klein were going to play this game (commit this crime) over and over again, you would see that cooperation would be a bit easier. Imagine Calvin says to Klein "I will keep my mouth shut if you do. However, if you confess once, I will confess every time after that and we will both be stuck getting 5 year sentences over and over again." This is called a [grim trigger strategy](https://en.wikipedia.org/wiki/Grim_trigger). The payoff of Klein confessing now also has the long term cost Calvin confessing in every subsequent game. This means that Klein will serve one less year in the first iteration of the game, but then will serve four more in every subsequent iteration. So if Calvin sticks with the plan, his total jail time could be expressed as:
+If you are to consider a situation where Calvin and Klein were going to play this game (commit this crime) over and over again, you would see that cooperation would be a bit easier. Imagine Calvin says to Klein "I will keep my mouth shut if you do. However, if you confess once, I will confess every time after that and we will both be stuck getting 5 year sentences over and over again." This is called a [grim trigger strategy](https://en.wikipedia.org/wiki/Grim_trigger). The payoff of Klein confessing now also has the long term cost of Calvin confessing in every subsequent game. This means that Klein will serve one less year in the first iteration of the game, but then will serve four more in every subsequent iteration. So if Calvin sticks with the plan, his total jail time could be expressed as:
 
 
 $$
@@ -59,7 +56,7 @@ $$
 \end{align*}
 $$
 
-e.g. for  $$ \delta = .9 $$ , 11 < 50. So if Calvin is rational, he would still cooperate, no matter how ruthless he might be. You can also see that Calvin and Klien do not necessarily need to employ a grim trigger strategy, where punishment continues forever.  They could also incentivize cooperation with a much shorter punishment period, as far future rounds have little impact on current behavior due to the discount factor. This repeated game sheds some light on the real world behavior of organized criminals, who often fail to cooperate with police despite the fact it is not rational in the short term. In criminal organizations, criminals are not faced with identical situations over and over again into perpetuity as discussed here, however they do face similar situations where trust is tested over and over again. Coupled with other ways to provide punishment or reward, like physical violence and compensation paid to family member whiles in prison, organizations are able to get members to cooperate over long periods of time, regardless of possible short term benefits of police cooperation.
+e.g. for  $$ \delta = .9 $$ , 11 < 50. So if Calvin is rational, he would still cooperate, no matter how ruthless he might be. You can also see that Calvin and Klein do not necessarily need to employ a grim trigger strategy, where punishment continues forever.  They could also incentivize cooperation with a much shorter punishment period, as far future rounds have little impact on current behavior due to the discount factor. This repeated game sheds some light on the real world behavior of organized criminals, who often fail to confess to police despite the fact it is not rational in the short term. In criminal organizations, criminals are not faced with identical situations over and over again into perpetuity, as discussed here. However, they do face similar situations where trust is tested over and over again. Coupled with other ways to provide punishment or reward, like physical violence or compensation paid to family members, organizations are able to get members to cooperate over long periods of time, regardless of possible short term benefits of helping police.
 
  Let's leave our $$ \delta $$  at .9, assume Calvin and Klein play the same strategy we just investigated, and look at our payout table again.
 
@@ -70,7 +67,20 @@ e.g. for  $$ \delta = .9 $$ , 11 < 50. So if Calvin is rational, he would still 
 | Not Confess      | |65, *50*         | |  11, *11*       |
 |                  | |                 | |                 |
 
-You can see that Calvin and Klein no longer are subject to the perversion of incentives that encouraged them to confess before. Whereas earlier in the single-game variant, no matter what Klein did, Calvin was better off confessing. Here it is better to confess only if Calvin thinks Klein will fail to cooperate with him.  So sure, if one confesses and the other has to employ the trigger strategy, it will be hard to start cooperating again as it was in the single-game version.  However there is the profound difference that when co-operating both players, are incentivized to continue to do so.  This situation, where neither Calvin nor Klein can change their strategy to improve their position, create equilibria in both the cooperative and non-cooperative states.
+You can see that Calvin and Klein no longer are subject to the perversion of incentives that encouraged them to confess before. Whereas earlier in the single-game variant, no matter what Klein did, Calvin was better off confessing. Here it is better to confess only if Calvin thinks Klein will fail to cooperate with him.  So sure, if one confesses and the other has to employ the trigger strategy, it will be hard to start cooperating again as it was in the single-game version.  However there is the profound difference that when co-operating, both players are incentivized to continue to do so.  This results in it two states emerging:
+
+* the **cooperative** state, where both players work together to create a better outcome and are incentivized to continue to do so
+* the **non-cooperative** state, where the players both keep confessing and are incentivized to continue to do so
+
+# The Global Warming Debate
+
+The current debate around global warming 
+
+# Customer Data Analysis
+
+TODO: stop calling it a game everywhere and use criminal/crime terminology not player
+
+TODO: fix confusing language which uses cooperate in oppposite contexts (police cooperation and criminal cooperation)
 
 # Parallels in Mathiness
 
@@ -88,12 +98,7 @@ So how does this apply to the Mathiness Romer is criticizing? Let's first start 
 4. Romer thinks that
 Romer compares the situation in Economics to the repeated prisoner's dilemmna.
 
-# Parallels in the Global Warming Debate
 
-# Applications in the Workplace
-
-TODO: stop calling it a game everywhere and use criminal/crime terminology not player
-TODO: fix confusing language which uses cooperate in oppposite contexts (police cooperation and criminal cooperation)
 
 
 

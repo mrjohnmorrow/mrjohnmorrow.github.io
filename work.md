@@ -36,7 +36,7 @@ Working on the Mail and People Apps, released in-box as part of Windows 8 and be
 * Social-Network Push notifications
 * Localization
 * App performance
-* App Security 
+* App Security
 
 ## Other Work
 
@@ -44,4 +44,4 @@ Working on the Mail and People Apps, released in-box as part of Windows 8 and be
 
 ![Me!](/images/thepapertrail.png)
 
-[The Paper Trail](http://the-paper-trail.com) is an online, audio-visual art project I worked on in collaboration with [The Papers](http://thepapersmusic.com). The Papers collected videos from all around the world via [Kickstarter](https://www.kickstarter.com/projects/1791710722/the-paper-trail-0) to go with their album, the Anyway EP.  I worked with them to combine their music and the submitted videos to create an experience we've called a "traveling album", where you can wander the world as you listen to their music.
+[The Paper Trail](http://the-paper-trail.com) is an online, audio-visual art project I worked on in collaboration with [The Papers](http://thepapersmusic.com). The Papers collected videos from all around the world via [Kickstarter](https://www.kickstarter.com/projects/1791710722/the-paper-trail-0) to go with their album, the Anyway EP.  I worked with them to combine their music and the submitted videos to create an experience we've called a "traveling album", where you can wander the world as you listen to their music. It's still a work in progress so if you have issues, please file [a bug report](https://github.com/mrjohnmorrow/thepapertrail/issues/new).

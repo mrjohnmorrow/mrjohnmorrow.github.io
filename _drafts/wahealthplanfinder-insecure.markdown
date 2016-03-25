@@ -24,9 +24,25 @@ However CERT refused to proceed as they "typically avoid publishing or handling 
 
 The "security team" called me later on the 16th. The person I was speaking to refused to give me a name or number to reach him on. The caller ID just showed the Cust Serv number for the site. He suggested I contact customer support again, the people who had put me in touch with him to begin with. I found a form on the website to file a "Customer Complaint" https://referrals.wahbexchange.org/CustomerComplaint.aspx that I used to contact wahbexchange again. You need to have valid customer ID number to report the complaint - allowing people to report security issues is clearly not a goal for them.
 
+nov 16 -  Contacted the EFF via email.
+
+nov 16 - Contacted CIO of Wash State via https://ocio.wa.gov/contact
+
+nov 16 - received a response from WAHBX that there security team was looking into it (Jami)
+
+nov 17 - Rodney Head contacted me from OCIO
+
+Nov 20 - Followed up again with Rodney from OCIO and Jami from WAHBX
+
+4 planned outages between 11/13 and 11/19 - most secure thing about this website is that no one can access it
+
+164k enrolled http://blogs.seattletimes.com/healthcarecheckup/2014/06/04/washington-health-insurance-exchange-cio-resigns/
+
+Kept
+
 ### What is Washington Health Plan Finder?
 
- Washington Health Plan Finder is the healthcare exchange used by Washington State residents.  With [over 1.7 million people](http://www.medicaid.gov/medicaid-chip-program-information/by-state/washington.html) in the state enrolled in Medicaid alone, this site is used by people all over the state to manage their healthcare and information.
+ Washington Health Plan Finder is the healthcare exchange used by Washington State residents.  As of 2014, there are over 160,000 users.
 
 ### What is wrong with the website?
 
@@ -34,6 +50,8 @@ The website does two very problematic things:
 
 1. Allows a user to reset their password with only the answer to one security question
 2. Displays users' SSNs to them in plain text on the site
+
+http://blogs.seattletimes.com/healthcarecheckup/2014/04/29/healthplanfinder-site-fixes-potential-password-problem/
 
 **This means that anyone who can guess ONE of your security questions can steal your SSN.**
 
@@ -56,6 +74,11 @@ On top of this, there doesn't seem to be anything stopping someone finding a lis
 I am not a security expert and I was easily able to find this problem the second time I ever used the website. I didn't look further for other issues, but with an issue as obvious as this, it is likely there are other security problems. It is clear that the people who made the site did not follow best practices and that the there hasn't been a real review of the security by a competent auditor. I will continue to try to contact Washington Health Plan Finder technical support  to find someone that will help escalate this issue. If you have an account on Washington Health Plan Finder, I encourage you to do the same:
 
 *  Call them at 1-855-WAFINDER (1-855-923-4633)
-*  Email them at customersupport@wahbexchange.org
+*  Email them at customersupport@wahbexchange.orge
 
 Changing your security questions is definitely the least you can do to stop attackers from accessing your account. However, without Washington Health Plan Finder fixing the issues with their site, your data is likely still at risk.
+
+## The issues here:
+
+- The state has no one able to make changes quickly or take down parts of a site that have problems while a long term solution is rolled out
+- Whatever auditing has been done did not provide basing threat analysis. If  someone provide security analysis and doesn't do this,  I would want my money back.
