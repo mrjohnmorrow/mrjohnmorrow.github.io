@@ -3,8 +3,11 @@ layout: page
 title: Work
 permalink: /work/
 ---
+I currently manage Fulfillment for [Gigster](http://gigster.com), where we aim to allow anyone in the world to build software, quickly and easily.
 
-I worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, moving to  [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have contributed to.
+I previously worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, moving to  [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have contributed to.
+
+For my full work history, check out my [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }}) or [resume](http://mrjohnmorrow.com/JohnMorrowResume.pdf). 
 
 ## Product Management
 
