@@ -3,11 +3,11 @@ layout: page
 title: Work
 permalink: /work/
 ---
-I currently manage Fulfillment for [Gigster](http://gigster.com), where we aim to allow anyone in the world to build software, quickly and easily.
+I most recently managed Fulfillment for [Gigster](http://gigster.com), where we aim to allow anyone in the world to build software, quickly and easily.
 
 I previously worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, moving to  [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have contributed to.
 
-For my full work history, check out my [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }}) or [resume](http://mrjohnmorrow.com/JohnMorrowResume.pdf). 
+For my full work history, check out my [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }}) or [resume](http://mrjohnmorrow.com/JohnMorrowResume.pdf).
 
 ## Product Management
 
@@ -47,4 +47,4 @@ Working on the Mail and People Apps, released in-box as part of Windows 8 and be
 
 ![Me!](/images/thepapertrail.png)
 
-[The Paper Trail](http://the-paper-trail.com) is an online, audio-visual art project I worked on in collaboration with [The Papers](http://thepapersmusic.com). The Papers collected videos from all around the world via [Kickstarter](https://www.kickstarter.com/projects/1791710722/the-paper-trail-0) to go with their album, the Anyway EP.  I worked with them to combine their music and the submitted videos to create an experience we've called a "traveling album", where you can wander the world as you listen to their music. It's still a work in progress so if you have issues, please file [a bug report](https://github.com/mrjohnmorrow/thepapertrail/issues/new).
+The Paper Trail was an online, audio-visual art project I worked on in collaboration with Chicago's [The Papers](https://thepapers.bandcamp.com/). The Papers collected videos from all around the world via [Kickstarter](https://www.kickstarter.com/projects/1791710722/the-paper-trail-0) to go with their album, the Anyway EP.  I worked with them to combine their music and the submitted videos to create an experience we've called a "traveling album", where you can wander the world as you listen to their music. The site is no longer up, but you can view the designs [here](https://docs.google.com/presentation/d/1vpCR-hM4rZkRykzY4o7uX65_FqUhIw8FZoImRH-kfAk/) and contact me if you are curious to learn more and/or see a demo.
