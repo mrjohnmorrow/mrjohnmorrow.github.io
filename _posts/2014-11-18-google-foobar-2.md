@@ -34,3 +34,8 @@ After Google accepted my answer, I was notified that I was halfway done with Lev
 !["Your invitation has expired"](/images/googlefoobar2.PNG)
 
 And that was the end of my Foobar adventure. No warning. No explanation. No closure.
+
+---
+Testing a few links, please ignore:
+[York Curtains](https://yorkcurtains.com)
+[Holloway Bay](https://hollowaybay.com)
