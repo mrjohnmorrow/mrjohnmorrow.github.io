@@ -32,7 +32,7 @@ curl -X POST "https://maker.ifttt.com/trigger/todo_print/with/key/{your key}?val
 
 # AWS Lambda
 
-So it's entirely possible to set this up using just Zapier and IFTTT, if you use a multistep zap on Zapier and their Trello integration. However, you need to buy the paid tier and it starts at $250 a year, hence Lambda. I was looking at the limits on the AWS free tier and unless you had a *very* long to-do list, it's nigh impossible to exceed them with this simple function. 
+So it's entirely possible to set this up using just Zapier and IFTTT, if you use a multistep zap on Zapier and their Trello integration. However, you need to buy the paid tier and it starts at $250 a year, hence Lambda. I was looking at the limits on the AWS free tier and unless you had a *very* long to-do list, it's nigh impossible to exceed them with this simple function.
 
 * Create a new AWS Lambda function [here](https://us-west-2.console.aws.amazon.com/lambda/home)
 * After you click create, you'll choose "Author from scratch"
@@ -62,9 +62,9 @@ curl -X GET "https://ijmtjfn8f0.execute-api.us-west-2.amazonaws.com/default/getT
 ```
 You can get the URL from the Lambda interface:
 
-![](/images/gatewaytrigger.png)
+![](/images/apigatewaysetup.png)
 
-# Adding the chron job
+# Adding the chron job to Zapier
 
 Once Lambda is set up, you can just create a simple Zap in Zapier to hit it everyday. You might be wondering, couldn't I also do this in IFTTT? The answer is, of course, but I've found Zapier to be a bit more reliable than IFTTT and has better error messages.
 
