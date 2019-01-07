@@ -52,6 +52,7 @@ You'll also need to grab some info from Trello so you can point your Lambda func
 * Add the code below (download the file [here](/code/lambda_handler.py)) in your `lambda_handler`
 * Test, using any input ( I used the "Hello World!" sample event). This should print your to-do list on the printer successfully at this point
 * Publish your Lambda function
+
 ```python
 import os
 import json
