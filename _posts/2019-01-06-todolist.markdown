@@ -72,5 +72,8 @@ Once Lambda is set up, you can just create a simple Zap in Zapier to hit it ever
 * Add the action "POST" from "Webhooks by Zapier"
 * Add the URL you tested in the last step, with your API key from your API Gateway configuration
 
-
 ![](/images/zapiersetup.png)
+
+# One last tip
+
+I try to keep the habit of writing my To-do list the night before, but sometimes you just don't have the foresight to have a good one printed and you wanna make some early edits. When I want to reprint, I just have the `curl` command above saved on my desktop and I can just reprint by quickly re-running that command.   
