@@ -9,7 +9,7 @@ For a long time I have used hand written to-do lists as a form of daily task tra
 
 It turns out the Memobird's API is [still in a private beta](/images/memobirdapi.png) for now, but they do have an [IFTTT service](https://ifttt.com/memobird). This, plus a few other automation tools, is all we need to make this happen. I've included instructions below in case other Memobird owners want to give something like this a shot. Here's what I did:
 
-* Set up an IFTTT applet with a webhook that printed the payload on the Memobird
+* Set up an IFTTT applet with a webhook that prints the payload on the Memobird
 * Wrote an AWS Lambda endpoint to pull my to-do  list from Trello, format it, and send it to this webhook
 * Set up a Zapier "zap" to spin up the Lambda endpoint every day at  8am
 
@@ -19,7 +19,7 @@ It turns out the Memobird's API is [still in a private beta](/images/memobirdapi
 * There should only be one option for trigger, "Receive a web request"
 * You then just set the event name to whatever you like, I chose todo_print (anything in snake case is fine)
 * Set the "that" step to "Print a message to a memobird service", using the 16-digit hex code ID for your device as the argument for the "Which memobird device?" parameter. You can press the button on the printer twice to print out this ID if you don't have it handy
-* Set the "What message to print?" parameter to ` {{OccurredAt}} {{Value1}}`
+* Set the "What message to print?" parameter to {% raw %} `{{OccurredAt}} {{Value1}}` {% endraw %}
 * Look up your key and URL [here](https://ifttt.com/services/maker_webhooks/settings), where your key is in your URL after `use/`
 
 ![](/images/iftttconfig.png)
@@ -32,7 +32,7 @@ curl -X POST "https://maker.ifttt.com/trigger/todo_print/with/key/{your key}?val
 
 # AWS Lambda
 
-So it's entirely possible to set this up using just Zapier and IFTTT, if you use a multistep zap on Zapier and their Trello integration. However, you need to buy the paid tier and it starts at $250 a year, hence Lambda. I was looking at the limits on the AWS free tier and unless you had a *very* long to-do list, it's nigh impossible to exceed them with this simple function.
+So it's entirely possible to set this up using just Zapier and IFTTT, if you use a multistep zap on Zapier and their Trello integration. However, you need to buy the paid tier and it starts at $250 a year, hence Lambda. I took a quick look at the limits on the AWS free tier and unless you had a *very* long to-do list, it's nigh impossible to exceed them with this simple function.
 
 * Create a new AWS Lambda function [here](https://us-west-2.console.aws.amazon.com/lambda/home)
 * After you click create, you'll choose "Author from scratch"
@@ -47,6 +47,7 @@ You'll also need to grab some info from Trello so you can point your Lambda func
 * In the json, search for "Today" or whatever your "Doing" list is called and copy the adjacent ID
 
 ![](/images/trellojsonid.png)
+* Get a key from the Trello API [here](https://trello.com/app-key), and then click through to get a token. You'll have to grant "Server Token" permissions on your Trello account to do so)
 * Add your list ID, your key-token pair for trello, and your key for the maker API to the environment variables on Lambda
 * Add the code [here](/code/lambda_handler.py) in your `lambda_handler`
 * Test, using any input ( I used the "Hello World!" sample event). This should print your to-do list on the printer successfully at this point
