@@ -39,8 +39,8 @@ So it's entirely possible to set this up using just Zapier and IFTTT, if you use
 * Select a name ("getTodoListAndPost"), set the runtime to Python 2, and create a new role with the template "Simple microservice permissions"
 ![](/images/lambdasetup.png)
 
-You'll also need to grab some info fromn Trello so you can point your Lambda function to the right list:
-* Look up the list ID on trello (go to board, menu, more, print and export, export as json)
+You'll also need to grab some info from Trello so you can point your Lambda function to the right list:
+* Look up the list ID on Trello (go to board, menu, more, print and export, export as json)
 ![](/images/trellojson.png)
 * In the json, search for "Today" or whatever your "Doing" list is called and copy the adjacent ID
 ![](/images/trellojsonid.png)
