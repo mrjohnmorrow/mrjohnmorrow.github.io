@@ -37,12 +37,15 @@ So it's entirely possible to set this up using just Zapier and IFTTT, if you use
 * Create a new AWS Lambda function [here](https://us-west-2.console.aws.amazon.com/lambda/home)
 * After you click create, you'll choose "Author from scratch"
 * Select a name ("getTodoListAndPost"), set the runtime to Python 2, and create a new role with the template "Simple microservice permissions"
+
 ![](/images/lambdasetup.png)
 
 You'll also need to grab some info from Trello so you can point your Lambda function to the right list:
 * Look up the list ID on Trello (go to board, menu, more, print and export, export as json)
+
 ![](/images/trellojson.png)
 * In the json, search for "Today" or whatever your "Doing" list is called and copy the adjacent ID
+
 ![](/images/trellojsonid.png)
 * Add your list ID, your key-token pair for trello, and your key for the maker API to the environment variables on Lambda
 * Add the code [here](/code/lambda_handler.py) in your `lambda_handler`
@@ -51,6 +54,7 @@ You'll also need to grab some info from Trello so you can point your Lambda func
 
 So now that you have your Lambda function all set up, you need to set up a way to tell it when to execute. We'll use an API Gateway to do this.
 * On the page where you added the code to your Lambda function, click on "API Gateway" under "Triggers" to begin API Gateway setup
+
 ![](/images/gatewaytrigger.png)
 
 I've shown my settings here configured, but you might need to create the API endpoint, which should be straightforward enough.
