@@ -15,8 +15,6 @@ It turns out the Memobird's API is [still in a private beta](/images/memobirdapi
 
 # IFTTT configuration
 
-## Setting up the Webhook
-
 * Create a [new applet](https://ifttt.com/create) and add "Webhooks" as the "this" step
 * There should only be one option for trigger, "Receive a web request"
 * You then just set the event name to whatever you like, I chose todo_print (anything in snake case is fine)
