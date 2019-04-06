@@ -3,11 +3,16 @@ layout: page
 title: Work
 permalink: /work/
 ---
-I most recently managed Fulfillment for [Gigster](http://gigster.com), where we aim to allow anyone in the world to build software, quickly and easily.
 
-I previously worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, moving to  [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have contributed to.
+Currently I am Head of Product at [Gauntlet](https://gauntlet.network), where we are building tools to help people build secure decentralized systems (I also built our site I linked too :D). We're an early stage company looking to grow so if you are passionate about our decentralized future, I encourage you to reach out.
 
-For my full work history, check out my [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }}) or [resume](http://mrjohnmorrow.com/JohnMorrowResume.pdf).
+I previously managed Fulfillment  and worked as a PM for [Gigster](http://gigster.com) from 2015-2018, where I worked to allow anyone in the world to build software, quickly and easily.
+
+Before that worked as a Program Manager at Microsoft from 2010-2014. Until 2013 I worked on Windows Apps and APIs, moving to  [Hololens](https://www.microsoft.com/microsoft-hololens/en-us) after that. I have also worked freelance as a web designer and Developer. Below is a bit more info on a few of the products and projects I have contributed to.
+
+For my full work history, check out my [LinkedIn](https://linkedin.com/in/{{ site.linkedin_username }}) or [resume](/JohnMorrowResume.pdf).
+
+I've included a few projects I've worked on below, but I haven't updated this since 2015 so you'd be better off following the links above.
 
 ## Product Management
 
