@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Small companies vs. Big companies"
-date:   2019-04-05 18:19:33
+date:   2019-04-05 08:19:33
 categories:
 ---
 
