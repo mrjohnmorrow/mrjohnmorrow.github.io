@@ -1,0 +1,61 @@
+jmomx
+John Morrow
+Head of Product and BD at https://gauntlet.network
+Oakland, CA
+==================================================================
+https://keybase.io/jmomx
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jmo.mx
+  * I am jmomx (https://keybase.io/jmomx) on keybase.
+  * I have a public key ASCpxRObaAtm3se_QpGG3LKmrjqRO7-3SnSDjp_RIybZIQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a9c5139b680b66dec7bf429186dcb2a6ae3a913bbfb74a74838e9fd12326d9210a",
+      "host": "keybase.io",
+      "kid": "0120a9c5139b680b66dec7bf429186dcb2a6ae3a913bbfb74a74838e9fd12326d9210a",
+      "uid": "c3565345b70f35a39bd5522b05291619",
+      "username": "jmomx"
+    },
+    "merkle_root": {
+      "ctime": 1571706180,
+      "hash": "f4740baf62026f2260f1fd1b9e196d9002a309cde8e666976ac36be0791392f4bec59ef01c13d2d2678fb07db081c02428bb40b761b5f215a30fd63a5e06d354",
+      "hash_meta": "5ac64a5006daab60ac296010d8aaa18d5549a3334c399b543c153da89ceb42ad",
+      "seqno": 8300164
+    },
+    "service": {
+      "entropy": "gpTNSIyrrMV7NFJG7kShhSJT",
+      "hostname": "jmo.mx",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.0"
+  },
+  "ctime": 1571706196,
+  "expire_in": 504576000,
+  "prev": "5594119c4e3c5eae6e8a289fd03199308ed6f3c179fe9d18c7bc737cbb83a212",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqcUTm2gLZt7Hv0KRhtyypq46kTu/t0p0g46f0SMm2SEKp3BheWxvYWTESpcCD8QgVZQRnE48Xq5uiiif0DGZMI7W88F5/p0Yx7xzfLuDohLEIBESK+cNjFsf9PSszuXFX3qrd6Lg4pI46ZK6u+0J/Z6JAgHCo3NpZ8RAjtcFm2yzuHBuoPCKEQSxD7uzXeY5PRJpiFu7qJXFTEe9lGnSd/U45Aq0G7wBKMDo+x5QWrc1KO6iIOKdqmACBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIASTATZMtG3q8oDzJQTNrPaBrUUjsM6pxqp9e/rNO8RJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jmomx
+
+==================================================================
+
